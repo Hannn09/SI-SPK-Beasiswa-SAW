@@ -35,9 +35,9 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav align-items-center justify-content-center gap-3">
-                        <li><a href="{{ route('admin') }}"
+                        <li><a href="{{ route('login') }}"
                                 class="text-decoration-none btn-signin text-black fw-semibold">Sign In</a></li>
-                        <li><a href="#" class="text-decoration-none text-white btn-signup fw-semibold rounded-3">Sign Up</a></li>
+                        <li><a href="{{ route('register') }}" class="text-decoration-none text-white btn-signup fw-semibold rounded-3">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <p class="text-body-tertiary mb-4 fw-medium">Get free scholarships for every level of education that
                     every student who
                     achievement for a bright future you can get it from school</p>
-                <button class="text-white fw-semibold border-0 py-3">Get Started</button>
+                <button class="text-white fw-semibold border-0 py-3 rounded-3">Get Started</button>
             </div>
             <div class="col-md-6 justify-content-center align-items-center">
                 <div class="mx-auto w-100">

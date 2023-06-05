@@ -52,6 +52,9 @@ body::-webkit-scrollbar-thumb {
     fill: #fff;
 }
 
+.sidebar .name-link {
+    font-size: 15px;
+}
 
 .btn-toggle::after {
     width: 1.25em;
@@ -111,6 +114,7 @@ body::-webkit-scrollbar-thumb {
 .content .home-content {
     padding: 104px 20px 30px 20px;
 }
+
 
 /* Responsive */
 @media screen and (max-width: 1023px) {
