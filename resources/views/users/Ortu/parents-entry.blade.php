@@ -91,7 +91,7 @@
                         auth()->user()->ortu->pendidikan_ayah === 'SMP')) selected @endif>SMP</option>
                     <option value="SMA" @if(old('pendidikan_ayah')==='SMA' || (auth()->user()->ortu &&
                         auth()->user()->ortu->pendidikan_ayah === 'SMA')) selected @endif>SMA</option>
-                    <option value="Dimploma III" @if(old('pendidikan_ayah')==='Diploma III' || (auth()->user()->ortu &&
+                    <option value="Diploma III" @if(old('pendidikan_ayah')==='Diploma III' || (auth()->user()->ortu &&
                         auth()->user()->ortu->pendidikan_ayah === 'Diploma III')) selected @endif>Diploma III</option>
                     <option value="D4/Strata I" @if(old('pendidikan_ayah')==='D4/Strata I' || (auth()->user()->ortu &&
                         auth()->user()->ortu->pendidikan_ayah === 'D4/Strata I')) selected @endif>D4/Strata I</option>

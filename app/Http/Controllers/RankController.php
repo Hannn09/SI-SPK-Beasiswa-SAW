@@ -13,15 +13,6 @@ class RankController extends Controller
         return view('admin.Rank.rank', compact('data'));
     }
 
-    // public function process()
-    // {
-    //     $data = Penilaian::all();
-
-    //     $html = view('admin.Rank.rank-table', compact('data'))->render();
-    //     return response()->json($html);
-    // }
-
-
     public function exportpdf()
     {
         $data = Penilaian::all();

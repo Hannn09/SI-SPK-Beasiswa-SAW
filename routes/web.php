@@ -87,11 +87,15 @@ Route::middleware([AdminMiddleware::class])->group(function () {
     Route::get('/admin/data-berkas', [FileController::class, 'show'])->name('data.file');
     Route::get('/admin/data-ortu', [OrtuController::class, 'show'])->name('data.ortu');
 
+    // Route Data Mahasiswa
+    Route::get('/admin/data-mahasiswa', [MahasiswaController::class, 'showData'])->name('data.mhs');
+
     // Route Export PDF
     Route::get('/report/alternatif', [AlternatifController::class, 'exportpdf'])->name('report-pdf');
     Route::get('/report/ortu', [OrtuController::class, 'exportpdf'])->name('report-pdf-ortu');
     Route::get('/report/penilaian', [PenilaianController::class, 'exportpdf'])->name('report-pdf-penilaian');
     Route::get('/report/ranking', [RankController::class, 'exportpdf'])->name('report-pdf-ranking');
+    Route::get('/report/mahasiswa', [MahasiswaController::class, 'exportpdf'])->name('report-pdf-mahasiswa');
 });
 
 // Route Login Mahasiswa
